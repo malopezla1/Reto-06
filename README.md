@@ -32,7 +32,7 @@ else:
     print(operaciones(num1, num2, operation))
 ```
 
-#Reto 06.2:
+# Reto 06.2:
 ```Python
 def palindromo (word: str) -> bool:
     word = word.lower()
@@ -55,7 +55,7 @@ except Exception as e:
     print(f"¡Error!: {e}")
 ```
 
-#Reto 06.3:
+# Reto 06.3:
 ```Python
 def result(num: int):
     if num < 2:
@@ -82,7 +82,7 @@ for numero in lista:
 print(f"Estos son los numeros primos en la lista: {primos}")
 ```
 
-#Reto 06.4:
+# Reto 06.4:
 ```Python
 def mayor_suma(lista_nums):
     if len(lista_nums) < 2:
@@ -104,7 +104,7 @@ lista_nums = [int(numero) for numero in partes]
 print("La mayor suma de dos números consecutivos es:", mayor_suma(lista_nums))
 ```
 
-#Reto 06.5
+# Reto 06.5
 ```Python
 def same_letters(lista):
     if not isinstance(lista, list):
@@ -129,5 +129,5 @@ lista_words = [palabra.strip() for palabra in entrance.split(',')]
 print(f"Palabras con los mismos caracteres: {same_letters(lista_words)}")
 ```
 
-#Shape: 
+# Shape: 
 La carpeta se encuentra subida aqui al repositorio, en resumen agrege excepciones para validar cuando no se ingresa un número o si ese número no cumple con las condiciones que se plantean como por ejemplo un lado negativo.
